@@ -1,0 +1,45 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+#jeopardy {
+  border-collapse: collapse;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#jeopardy td {
+  width: 10vw;
+  height: 12.5vh;
+  border: solid 1px #666;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 14px;
+}
+
+#jeopardy thead td {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+#spin-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%) scale(250%);
+}
+
+#start {
+  margin-bottom: 25px;
+}
